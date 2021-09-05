@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    background-image: url("2108987.jpg");
+  
+    
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header_isha_image_container{
+    width:40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .isha_header_image{
+    width:50%;
+    min-width:120px;
+    min-height:100px;
+  }
+  .author-image-container{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.author_image{
+    width:50%;
+}
+.death{
+  color: red;
+}
+.more_button{
+  color: white;
+    background-color: rgb(0, 255, 21);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto";
+    border-radius: 8px;
+    border: none;
+    padding:8px 13px 8px 13px;
+}
+
+.isha-video-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.video-isha{
+  text-align:center;
+}
